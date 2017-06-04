@@ -124,4 +124,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 LOGIN_REDIRECT_URL="/"
-SITE_ID = 1
+SITE_ID = 2

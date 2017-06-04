@@ -43,8 +43,8 @@ class Coffe(models.Model):
     water = models.FloatField(default=0)
     steamed_milk = models.BooleanField(default=False)
     foam = models.FloatField
-    poweder = models.ForeignKey(Powder)
-    syrup = models.ForeignKey(Syrup)
+    poweder = models.ForeignKey(Powder, blank =True)
+    syrup = models.ForeignKey(Syrup, blank=True)
     extra = models.TextField()
     myuser = models.ForeignKey(User)
 
